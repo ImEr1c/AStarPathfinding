@@ -1,0 +1,19 @@
+plugins {
+    id("java")
+}
+
+group "com.imer1c"
+version "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.imer1c.Main'
+    }
+}
